@@ -1,9 +1,14 @@
-.comunidadMain p span {
-	font-family: 'Montserrat', sans-serif !important;
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box !important;
 }
 
 .comunidadMain{
 	background-color: #FFF7F6;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
 }
 
 .comunidadTitle {
@@ -31,23 +36,25 @@
 .comunidadRurus{
 	margin-top: 1rem;
 	width: 100%;
-	height: 28rem;
+	height: 30rem;
 	background-color: #C4C4C433;
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
 	text-align: center;
+	font-family: 'Montserrat', sans-serif;
 }
 
 .comunidadRurus__title{
-	vertical-align: center;
 	background-color: #FA685E80;
 	border-radius: 0.5rem;
 	width: 3rem;
-	height: 28rem;
+	height: 30rem;
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	padding: 0;
+	margin: 0;
 }
 
 .comunidadRurus__title__text{
@@ -76,7 +83,6 @@
 .comunidadRurus__globos1__author{
 	width: 12rem;
 	height: 12rem;
-	padding: 0.5rem;
 	position: relative;
 	z-index: 20;
 	font-family: 'Montserrat', sans-serif;
@@ -108,7 +114,6 @@
 	position: relative;
 	width: 26rem;
 	height: 26rem;
-	padding: 1rem 3rem;
 	z-index: 20;
 	font-size: 0.9rem;
 	color: #fff;
@@ -116,6 +121,10 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+.comunidadRurus__globos2__comment p{
+	padding: 1rem 3rem 1rem 3.5rem;
 }
 
 .comunidadRurus__globos2__img{
@@ -129,19 +138,20 @@
 
 .comunidadAllpas{
 	width: 100%;
-	height: 28rem;
+	height: 30rem;
 	background-color: #FA685E0A;
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
 	flex-direction: row-reverse;
+	font-family: 'Montserrat', sans-serif;
 }
 
 .comunidadAllpas__title{
 	background-color: #A3D6D3;
 	border-radius: 0.5rem;
 	width: 3rem;
-	height: 28rem;
+	height: 30rem;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -174,7 +184,6 @@
 .comunidadAllpas__globos1__author{
 	width: 12rem;
 	height: 12rem;
-	padding: 0.5rem;
 	position: relative;
 	z-index: 20;
 	font-family: 'Montserrat', sans-serif;
@@ -207,7 +216,6 @@
 	position: relative;
 	width: 26rem;
 	height: 26rem;
-	padding: 1rem 3rem;
 	z-index: 20;
 	font-size: 0.9rem;
 	color: #fff;
@@ -215,6 +223,10 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+.comunidadAllpas__globos2__comment p{
+	padding: 1rem 3.5rem 1rem 3rem;
 }
 
 .comunidadAllpas__globos2__img{
@@ -229,7 +241,7 @@
 
 .comunidadTikas{
 	width: 100%;
-	height: 28rem;
+	height: 30rem;
 	background-color: #C4C4C433;
 	display: flex;
 	justify-content: flex-start;
@@ -239,11 +251,10 @@
 }
 
 .comunidadTikas__title{
-	vertical-align: center;
 	background-color: #FA685E80;
 	border-radius: 0.5rem;
 	width: 3rem;
-	height: 28rem;
+	height: 30rem;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -274,7 +285,6 @@
 .comunidadTikas__globos1__author{
 	width: 12rem;
 	height: 12rem;
-	padding: 0.5rem;
 	position: relative;
 	z-index: 20;
 	font-family: 'Montserrat', sans-serif;
@@ -306,7 +316,6 @@
 	position: relative;
 	width: 26rem;
 	height: 26rem;
-	padding: 1rem 3rem;
 	z-index: 20;
 	font-size: 0.9rem;
 	color: #fff;
@@ -314,6 +323,10 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+.comunidadTikas__globos2__comment p{
+	padding: 1rem 3rem 1rem 3.5rem;
 }
 
 .comunidadTikas__globos2__img{
@@ -326,23 +339,22 @@
 /* --------- YAKUS ---------- */
 
 .comunidadYakus{
-	margin-bottom: 1rem;
 	width: 100%;
-	height: 28rem;
+	height: 30rem;
 	background-color: #FA685E0A;
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
 	text-align: center;
 	flex-direction: row-reverse;
+	font-family: 'Montserrat', sans-serif;
 }
 
 .comunidadYakus__title{
-	vertical-align: center;
 	background-color: #A3D6D3;
 	border-radius: 0.5rem;
 	width: 3rem;
-	height: 28rem;
+	height: 30rem;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -374,7 +386,6 @@
 .comunidadYakus__globos1__author{
 	width: 12rem;
 	height: 12rem;
-	padding: 0.5rem;
 	position: relative;
 	z-index: 20;
 	font-family: 'Montserrat', sans-serif;
@@ -407,7 +418,6 @@
 	position: relative;
 	width: 26rem;
 	height: 26rem;
-	padding: 1rem 3rem;
 	z-index: 20;
 	font-size: 0.9rem;
 	color: #fff;
@@ -417,12 +427,17 @@
 	align-items: center;
 }
 
+.comunidadYakus__globos2__comment p{
+	padding: 1rem 3.5rem 1rem 3rem;
+}
+
 .comunidadYakus__globos2__img{
 	position: relative;
 	width: 26rem;
 	top: -26rem;
 	z-index: 12;
 	transform: scaleX(-1);
+	overflow: hidden;
 }
 
 /* ---------- burbujas ------------ */
@@ -430,17 +445,53 @@
 .bubbleContainer{
 	position: absolute;
 	width: 100%;
-	height: 28rem;
-	top: 13.5rem;
+	height: 30rem;
+}
+
+.bubbleRurus{
+	top: 8.5rem;
+}
+
+.bubbleAllpas{
+	top: 38.5rem;
+}
+
+.bubbleTikas{
+	top: 68.5rem;
+}
+
+.bubbleYakus{
+	top: 98.5rem;
 }
 
 .bubbles{
 	position: relative;
+	visibility: hidden;
 	width: 2rem;
 	height: 2rem;
 	border-radius: 50%;
-	top: 10rem;
-	left: 20rem;
+	top: 0rem;
+	left: 0rem;
 	background-color: #705176;
 	z-index: 3;
 }
+
+.c705176{
+	background-color: #705176 
+}
+.c00839A{
+	background-color: #00839A 
+}
+.cC58976{
+	background-color: #C58976 
+}
+.cFDB82D{
+	background-color: #FDB82D 
+}
+.c706976{
+	background-color: #706976 
+}
+.c9A8B92{
+	background-color: #9A8B92 
+}
+
