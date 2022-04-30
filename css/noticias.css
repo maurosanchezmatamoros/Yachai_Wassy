@@ -42,10 +42,12 @@ body{
     justify-content: space-around;
     align-items: flex-start;
     width: 100%;
+    flex-wrap: wrap;
 }
 
 .noticiasPremios__container{
     width: 30%;
+    min-width: 17rem;
     height: 25rem;
     display: flex;
     flex-direction: column;
@@ -85,10 +87,12 @@ body{
     justify-content: space-around;
     align-items: flex-start;
     width: 100%;
+    flex-wrap: wrap;
 }
 
 .noticiasEventos__container{
     width: 45%;
+    min-width: 17rem;
     height: 25rem;
     display: flex;
     flex-direction: column;
@@ -123,10 +127,12 @@ body{
     justify-content: space-around;
     align-items: flex-start;
     width: 100%;
+    flex-wrap: wrap;
 }
 
 .noticiasNotas__container{
     width: 45%;
+    min-width: 17rem;
     height: 25rem;
     display: flex;
     flex-direction: column;
@@ -138,6 +144,7 @@ body{
     height: 20rem;
     display: flex;
     justify-content: center;
+    align-items: center;
     overflow: hidden;
     object-fit: scale-down;
     margin: 1rem 0;
@@ -171,4 +178,8 @@ body{
 
 .RadioExitosa{
     margin-bottom: 4rem;
+}
+
+@media screen and (max-width: 400px) {
+    html {font-size: 14px}
 }

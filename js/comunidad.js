@@ -14,7 +14,7 @@ function showBubbles() {
     const bubbles = document.querySelectorAll(".bubbles")
     
     bubbles.forEach(el => {
-        el.setAttribute("style", `visibility: visible; transform: translate(${getRandomMove(70)}rem, ${getRandomMove(20)}rem) scale(${getRandomSize(3)})`)
+        el.setAttribute("style", `visibility: visible; transform: translate(${getRandomMove(90)}vw, ${getRandomMove(20)}rem) scale(${getRandomSize(3)})`)
     })
 }
 
