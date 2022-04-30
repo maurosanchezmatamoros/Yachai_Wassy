@@ -1,0 +1,174 @@
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box !important;
+    background-color: #FFF7F6;
+    font-family: 'Baloo 2';
+}
+
+.noticiasMain{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+.noticiasTitle {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	padding-top: 2rem;
+	justify-content: center;
+	align-items: center;
+}
+
+.noticiasTitle__h2 {
+	font-weight: 700;
+	font-size: 2.5rem;
+    position: absolute;
+}
+
+.noticiasTitle__img {
+	width: 8rem;
+}
+
+.noticiasSubTitle{
+    text-align: center;
+    font-size: 2rem;
+    width: 100%;
+}
+
+.noticiasPremios{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.noticiasPremios__container{
+    width: 30%;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.noticiasPremios__container__imgContainer{
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    margin: 1rem 0;
+}
+
+.noticiasPremios__container h2{
+    text-align: center;
+    height: 3rem;
+}
+
+.noticiasPremios__container button{
+    width: 100%;
+    height: 2rem;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 1rem 0;
+    background-color: #6773E0;
+    color: #fff;
+    font-family: 'Baloo 2';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.noticiasEventos{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.noticiasEventos__container{
+    width: 45%;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.noticiasEventos__container__imgContainer{
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    margin: 1rem 0;
+    display: flex;
+    align-items: center;
+}
+
+.noticiasEventos__container__imgContainer img{
+    width: 100%;
+    height: 20rem;
+    object-fit: scale-down;
+    object-position: center;
+}
+
+.noticiasEventos__container h2{
+    text-align: center;
+    height: 3rem;
+}
+
+.noticiasNotas{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.noticiasNotas__container{
+    width: 45%;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.noticiasNotas__container__imgContainer{
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    object-fit: scale-down;
+    margin: 1rem 0;
+}
+
+.noticiasNotas__container__imgContainer img{
+    width: 100%;
+    height: 20rem;
+    object-fit: scale-down;
+    object-position: center;
+}
+
+.noticiasNotas__container h2{
+    text-align: center;
+    height: 3rem;
+}
+
+.noticiasNotas__container button{
+    width: 100%;
+    height: 2rem;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 1rem 0;
+    background-color: #6773E0;
+    color: #fff;
+    font-family: 'Baloo 2';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.RadioExitosa{
+    margin-bottom: 4rem;
+}
